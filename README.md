@@ -96,4 +96,4 @@ The image below shows the results by comparing predictions with the original gar
 ![results](preview/results.png)
 
 ## License
-Thi project is [MIT](LICENSE) Lincensed.
+This project is [MIT](LICENSE)
