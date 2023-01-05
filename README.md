@@ -4,5 +4,5 @@ Final project for an application of machine learning and deep learning course ca
 ```Please cite this  project if this repository is useful for your research.```
 
 # Project Overview
-![screenshot][preview](screenshot.png)
+![screenshot](preview/screenshot.png)
 
