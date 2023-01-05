@@ -7,11 +7,22 @@ Final project for an application of machine learning and deep learning course ca
 ![screenshot](preview/screenshot.png)
 * The objective of this study is to train the model to be able to predict the input images and classify it into one of the
 garbage recycling categories, which includes cardboard, glass, metal, paper, plastic, trash.
-* The CNN generated an accuracy score of 92.96% which proved that this model has a potential to be used  a a tool for 
+* The CNN generated an accuracy score of ```92.96%``` which proved that this model has a potential to be used  a a tool for 
 predicting garbage clases.
 * Databaset includes cardboard(393), glass(491), metal(400), paper(584), plastic(472), trash(127)
 
 ![class-distribution](preview/class-distribution.png)
+
+## Built with
+* Python
+* Jupyter Notebook
+
+## Getting started
+To get the local copy of this repository, please run the following commands on your terminal:
+```git clone https://github.com/PizaaRiaaa/Synapse.git```
+* Read fullpaper: [click here](fullpaper/Final-Paper_Semaphore.pdf)
+* locate original images: [click here](Garbage/original_images)
+* locate processed images: [click here](Garbage/processed_images)
 
 ## Data Preprocessing
 Steps that were applied for the data preprocessing for all the images in the dataset. 
