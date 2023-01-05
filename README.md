@@ -23,3 +23,35 @@ channels (RGB). Dividing it by 255 is necessary to normalize it to 0 to 1 range.
 * ```Step 4:``` Flatten all the images into a vector matrix
 * ```Step 5:``` Shuffled the train dataset for equal distribution of the data for splitting
 * ```Step 6:``` Split the data into three sets - train, test, and validation. This is undergone to avoid data overfitting and to increase the model accuracy score
+
+## Traning the model by using the train dataset
+Epoch 1/60
+52/52 [==============================] - 17s 318ms/step - loss: 1.7310 - accuracy: 0.2291 - val_loss: 1.7209 - val_accuracy: 0.2467
+Epoch 2/60
+52/52 [==============================] - 6s 107ms/step - loss: 1.7051 - accuracy: 0.2598 - val_loss: 1.6693 - val_accuracy: 0.2349
+Epoch 3/60
+52/52 [==============================] - 4s 85ms/step - loss: 1.6228 - accuracy: 0.2892 - val_loss: 1.5717 - val_accuracy: 0.3482
+Epoch 4/60
+52/52 [==============================] - 5s 96ms/step - loss: 1.5400 - accuracy: 0.3636 - val_loss: 1.5166 - val_accuracy: 0.3449
+Epoch 5/60
+52/52 [==============================] - 5s 93ms/step - loss: 1.4760 - accuracy: 0.3879 - val_loss: 1.4331 - val_accuracy: 0.4297
+Epoch 6/60
+52/52 [==============================] - 5s 91ms/step - loss: 1.4269 - accuracy: 0.4342 - val_loss: 1.3399 - val_accuracy: 0.4749
+Epoch 7/60
+52/52 [==============================] - 5s 92ms/step - loss: 1.3674 - accuracy: 0.4600 - val_loss: 1.3171 - val_accuracy: 0.4760
+Epoch 8/60
+52/52 [==============================] - 5s 91ms/step - loss: 1.3747 - accuracy: 0.4561 - val_loss: 1.2554 - val_accuracy: 0.5385
+Epoch 9/60
+52/52 [==============================] - 5s 92ms/step - loss: 1.2953 - accuracy: 0.4943 - val_loss: 1.2450 - val_accuracy: 0.5167
+Epoch 10/60
+52/52 [==============================] - 5s 90ms/step - loss: 1.2335 - accuracy: 0.5361 - val_loss: 1.1797 - val_accuracy: 0.5469
+Epoch 11/60
+52/52 [==============================] - 5s 92ms/step - loss: 1.1972 - accuracy: 0.5508 - val_loss: 1.1494 - val_accuracy: 0.5731
+Epoch 12/60
+52/52 [==============================] - 4s 86ms/step - loss: 1.1498 - accuracy: 0.5658 - val_loss: 1.1558 - val_accuracy: 0.5714
+Epoch 13/60
+...
+Epoch 59/60
+52/52 [==============================] - 4s 75ms/step - loss: 0.2195 - accuracy: 0.9278 - val_loss: 0.1807 - val_accuracy: 0.9526
+Epoch 60/60
+52/52 [==============================] - 4s 76ms/step - loss: 0.2202 - accuracy: 0.9296 - val_loss: 0.2046 - val_accuracy: 0.9308
