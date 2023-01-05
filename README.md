@@ -3,6 +3,8 @@ Final project for an application of machine learning and deep learning course ca
 
 ```Please cite this  project if this repository is useful for your research.```
 
+Recycling trash is a crucial part of protecting our environment. Garbage must be divided into categories with similar recycling processes in order to enable the recycling process. The percentage of recycled waste can rise considerably if it is possible to separate domestic trash into several categories. Using the classes given, we trained the model in this notebook to categorize the input images and output the trash classification.
+
 ## Project Overview
 ![screenshot](preview/screenshot.png)
 * The objective of this study is to train the model to be able to predict the input images and classify it into one of the
@@ -23,6 +25,22 @@ To get the local copy of this repository, please run the following commands on y
 * Read fullpaper: [click here](fullpaper/Final-Paper_Semaphore.pdf)
 * locate original images: [click here](Garbage/original_images)
 * locate processed images: [click here](Garbage/processed_images)
+
+## Libraries
+* tensorflow
+* Sequential
+* keras.layers
+* ImageDataGenerator
+* sklearn.metrics
+* keras
+* PIL
+* pathlib
+* scipy
+* os
+* numpy
+* matplotlib.pyplot
+* torchvisio.datasets
+* torchvision.transform
 
 ## Data Preprocessing
 Steps that were applied for the data preprocessing for all the images in the dataset. 
