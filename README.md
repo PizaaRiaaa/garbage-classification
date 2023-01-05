@@ -21,7 +21,9 @@ predicting garbage clases.
 
 ## Getting started
 To get the local copy of this repository, please run the following commands on your terminal:
+
 ```git clone https://github.com/PizaaRiaaa/Synapse.git```
+
 * Read fullpaper: [click here](fullpaper/Final-Paper_Semaphore.pdf)
 * locate original images: [click here](Garbage/original_images)
 * locate processed images: [click here](Garbage/processed_images)
@@ -87,3 +89,7 @@ Epoch 59/60
 52/52 [==============================] - 4s 75ms/step - loss: 0.2195 - accuracy: 0.9278 - val_loss: 0.1807 - val_accuracy: 0.9526
 Epoch 60/60
 52/52 [==============================] - 4s 76ms/step - loss: 0.2202 - accuracy: 0.9296 - val_loss: 0.2046 - val_accuracy: 0.9308
+
+## Results
+The image below shows the results by comparing predictions with the original garbage labels. As can be seen, all images were correctly predicted. The image classfied as cardboard has the probability of ```99%```, ```glass 87%```, ```metal 99%```, ```paper 96%```, ```plastic 83%```, and ```trash with 98%```.
+![results](preview/results.png)
