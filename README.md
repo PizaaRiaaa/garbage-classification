@@ -3,6 +3,8 @@ Final project for an application of machine learning and deep learning course ca
 
 ```Please cite this  project if this repository is useful for your research.```
 
-# Project Overview
+## Project Overview
 ![screenshot](preview/screenshot.png)
+* The objective of this study is to train the model to be able to predict the input images and classify it into one of the
+garbage recycling categories, which includes cardboard, glass, metal, paper, plastic, trash.
 
