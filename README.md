@@ -24,6 +24,9 @@ channels (RGB). Dividing it by 255 is necessary to normalize it to 0 to 1 range.
 * ```Step 5:``` Shuffled the train dataset for equal distribution of the data for splitting
 * ```Step 6:``` Split the data into three sets - train, test, and validation. This is undergone to avoid data overfitting and to increase the model accuracy score
 
+```CNN graph architecture based on the compiled model```
+![cnn](preview/CNN.png)
+
 ## Traning the model by using the train dataset
 Epoch 1/60
 52/52 [==============================] - 17s 318ms/step - loss: 1.7310 - accuracy: 0.2291 - val_loss: 1.7209 - val_accuracy: 0.2467
