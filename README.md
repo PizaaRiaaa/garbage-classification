@@ -11,7 +11,7 @@ Recycling trash is a crucial part of protecting our environment. Garbage must be
 garbage recycling categories, which includes cardboard, glass, metal, paper, plastic, trash.
 * The CNN generated an accuracy score of ```92.96%``` which proved that this model has a potential to be used  a a tool for 
 predicting garbage clases.
-* Databaset includes cardboard(393), glass(491), metal(400), paper(584), plastic(472), trash(127)
+* Dataset includes cardboard(393), glass(491), metal(400), paper(584), plastic(472), trash(127)
 
 ![class-distribution](preview/class-distribution.png)
 
