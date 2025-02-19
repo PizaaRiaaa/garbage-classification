@@ -22,7 +22,7 @@ predicting garbage clases.
 ## Getting started
 To get the local copy of this repository, please run the following commands on your terminal:
 
-```git clone https://github.com/PizaaRiaaa/Synapse.git```
+```git clone https://github.com/PizaaRiaaa/Synapse.git](https://github.com/PizaaRiaaa/garbage-classification.git```
 
 * Read fullpaper: [click here](fullpaper/Final-Paper_Semaphore.pdf)
 * locate original images: [click here](Garbage/original_images)
